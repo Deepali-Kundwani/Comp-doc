@@ -1,0 +1,13 @@
+.App-grid {
+  display: grid;
+  grid-template-areas:
+    "nav head "
+    "nav pro ";
+  grid-template-columns: 18%;
+  grid-template-rows: 7%;
+
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
+}
