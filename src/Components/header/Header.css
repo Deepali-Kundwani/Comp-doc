@@ -1,0 +1,26 @@
+:root {
+  --var-color1: #1976d2;
+  --var-color2: #fff;
+  --var-color3: hsl(227, 10%, 46%);
+  --var-color4: hsl(0, 0%, 59%);
+  --var-color5: white;
+}
+
+.header-flex {
+  grid-area: head;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #1976d2;
+  color: white;
+  align-content: space-around;
+  height: 10vh;
+  box-shadow: 2px 1.5px 6px gray;
+}
+
+.header-flex-item {
+  align-self: center;
+  margin: 1rem;
+}
+.header-flex-item:hover {
+  cursor: pointer;
+}

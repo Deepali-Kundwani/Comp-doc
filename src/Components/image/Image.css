@@ -1,0 +1,29 @@
+.img-container {
+  grid-area: pro;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-top: -1rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.image-circular {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  vertical-align: middle;
+  align-self: center;
+  margin-bottom: 2rem;
+  object-fit: cover;
+}
+.image-responsive {
+  width: 40%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  align-self: center;
+}

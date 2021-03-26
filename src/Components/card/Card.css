@@ -1,0 +1,105 @@
+.modal-container {
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  justify-self: center;
+  width: 80%;
+  flex-direction: column;
+}
+.heading {
+  align-self: center;
+}
+
+.modal-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  height: 75vh;
+  width: 35%;
+  margin-top: 0rem;
+  background-color: white;
+  box-shadow: 1.5px 1.5px 12px 0px lightgray;
+  margin-bottom: 2rem;
+}
+
+.image {
+  align-self: center;
+  height: 70%;
+  width: 93%;
+  margin: 1px;
+}
+
+.eng {
+  align-self: flex-start;
+  position: relative;
+  left: 1rem;
+  top: 2rem;
+  font-size: large;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.slim {
+  color: #9ca3af;
+  position: relative;
+  left: 1rem;
+  top: 2.5rem;
+}
+
+.price {
+  position: relative;
+  top: 3rem;
+  left: 1rem;
+  color: #1f2937;
+  font-size: large;
+  font-weight: bold;
+}
+
+.line-through-price {
+  position: relative;
+  top: 1.8rem;
+  left: 5rem;
+  font-size: medim;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.discount {
+  position: relative;
+  top: 0.6rem;
+  left: 8.5rem;
+  color: lightcoral;
+}
+
+@media screen and (max-width: 1000px) {
+  .modal-flex-container {
+    width: 85%;
+    height: 54%;
+  }
+  .eng {
+    font-size: medium;
+  }
+
+  .slim {
+    font-size: medium;
+    margin-bottom: 0.2rem;
+    top: 2.2rem;
+  }
+
+  .price {
+    font-size: smaller;
+    position: relative;
+    top: 2.5rem;
+  }
+
+  .line-through-price {
+    font-size: smaller;
+    top: 1.5rem;
+  }
+
+  .discount {
+    font-size: x-small;
+    top: 0.6rem;
+  }
+}

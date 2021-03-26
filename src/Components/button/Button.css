@@ -1,0 +1,74 @@
+:root {
+  --color-button1: rgb(17, 82, 147);
+  --color-button2: rgb(154, 0, 54);
+}
+
+.button-container {
+  grid-area: pro;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+}
+
+.button-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.primary-button {
+  margin: 2rem;
+  color: black;
+  background-color: lightgray;
+  font-size: medium;
+  padding: 0.5rem;
+  width: 6rem;
+  text-align: center;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  box-shadow: 1px 2px 5px gray;
+}
+
+.color-blue {
+  background-color: var(--color-button1);
+  color: white;
+}
+
+.color-pink {
+  background-color: var(--color-button2);
+  color: white;
+}
+
+.icon-button {
+  margin: 1rem;
+}
+
+.float-button {
+  margin: 1rem;
+  background-color: lightgray;
+  color: white;
+  width: 1.8rem;
+  padding: 0.8rem;
+  text-align: center;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  box-shadow: 1px 2px 5px gray;
+}
+
+.float-blue {
+  background-color: var(--color-button1);
+}
+
+.float-pink {
+  background-color: var(--color-button2);
+}
