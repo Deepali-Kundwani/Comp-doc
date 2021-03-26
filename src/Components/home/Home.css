@@ -1,0 +1,12 @@
+.home-container {
+  grid-area: pro;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+  justify-self: center;
+  width: 100%;
+}
+
+.home-heading {
+  text-align: center;
+}
