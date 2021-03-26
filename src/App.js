@@ -7,15 +7,15 @@ import { Home } from "./Components/home/Home";
 import { Button } from "./Components/button/Button";
 
 export default function App() {
-  const [a, setA] = useState(<Home />);
+  const [myComponent, setMyComponent] = useState(<Home />);
 
   return (
     <div className="App-grid">
       <Header />
       <Navigation
-        parentCallback={(b) => {
+        parentCallback={(result) => {
           console.log("exp");
-          setA(b);
+          setA(result);
         }}
       />
       {a}
