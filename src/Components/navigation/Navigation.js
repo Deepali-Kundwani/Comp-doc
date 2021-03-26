@@ -48,7 +48,7 @@ export const Navigation = ({ parentCallback }) => {
       {navItems.map((item1) => (
         <div
           onClick={() => {
-            console.log("nav");
+          
             parentCallback(components[item1]);
           }}
           className="navigation-flex-item"
