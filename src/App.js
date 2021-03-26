@@ -15,10 +15,10 @@ export default function App() {
       <Navigation
         parentCallback={(result) => {
           console.log("exp");
-          setA(result);
+          setMyComponent(result);
         }}
       />
-      {a}
+      {myComponent}
     </div>
   );
 }
