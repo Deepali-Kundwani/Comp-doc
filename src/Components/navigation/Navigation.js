@@ -12,6 +12,7 @@ import { List } from "../list/List";
 import { Image } from "../image/Image";
 import { Rating } from "../rating/Rating";
 import { Grid } from "../grid/Grid";
+import { Home } from "../home/Home";
 
 export const Navigation = ({ parentCallback }) => {
   const navItems = [
@@ -31,7 +32,7 @@ export const Navigation = ({ parentCallback }) => {
   const components = {
     Alert: <Alert />,
     Avatar: <Avatar />,
-    "UI components👇": <Button />,
+    "UI components👇": <Home />,
     Badge: <Badge />,
     Button: <Button />,
     Cards: <Cards />,
