@@ -1,0 +1,12 @@
+.rating-container {
+  grid-area: pro;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  margin-top: 3rem;
+  width: 80%;
+}
+
+.rating {
+  margin-bottom: 2rem;
+}

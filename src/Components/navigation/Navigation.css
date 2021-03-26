@@ -1,0 +1,39 @@
+:root {
+  --var-clr1: #fff;
+}
+
+.navigation-flex {
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: start;
+  background-color: var(--var-clr1);
+  color: black;
+  justify-content: center;
+  border-right: 15px solid #e5e7eb;
+  padding-top: 2rem;
+}
+
+.navigation-flex-item {
+  margin: 1.5rem;
+  align-self: center;
+  justify-self: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navigation-flex :hover {
+  cursor: pointer;
+  color: #1976d2;
+}
+
+@media all and (max-width: 600px) {
+  .navigation-flex-item {
+    font-size: x-small;
+    font-weight: 15px;
+  }
+  .navigation-flex {
+    border-right: 5px solid #e5e7eb;
+  }
+}
